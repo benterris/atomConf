@@ -1,0 +1,31 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "exception-reporting":
+    userId: "c232f989-31c9-4ffe-a3e6-00e63b8a7921"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#0245ff"
+        cyan: "#00bdbe"
+        green: "#00a800"
+      zBright:
+        brightBlue: "#0082ff"
+        brightGreen: "#00f900"
+        brightYellow: "#b6a400"
+    style:
+      theme: "dracula"
+  "spell-check":
+    locales: [
+      "fr-FR"
+    ]
+  welcome:
+    showOnStartup: false
+  wordcount: {}
+".plain.text":
+  editor:
+    softWrap: true

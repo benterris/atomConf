@@ -1,5 +1,9 @@
 "*":
   core:
+    disabledPackages: [
+      "wrap-guide"
+      "vim-mode-plus"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
@@ -7,6 +11,19 @@
     ]
   "exception-reporting":
     userId: "c232f989-31c9-4ffe-a3e6-00e63b8a7921"
+  editor:
+    fontSize: 19
+  "exception-reporting":
+    userId: "ce6dbf45-e550-453f-8eae-34afddbda768"
+  "spell-check":
+    locales: [
+      "en-US"
+      "fr-FR"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   "platformio-ide-terminal":
     ansiColors:
       normal:
@@ -19,13 +36,10 @@
         brightYellow: "#b6a400"
     style:
       theme: "dracula"
-  "spell-check":
-    locales: [
-      "fr-FR"
-    ]
-  welcome:
-    showOnStartup: false
-  wordcount: {}
+    welcome:
+      showOnStartup: false
+    wordcount: {}
 ".plain.text":
   editor:
     softWrap: true
+    softWrapAtPreferredLineLength: false
